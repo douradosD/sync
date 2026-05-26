@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Facebook, FolderOpen, Instagram, MessageCircleMore, PlayCircle } from 'lucide-react'
+import { Facebook, Instagram, MessageCircleMore, PlayCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 import SectionHeading from './SectionHeading'
 import { brandVideo, contact } from '../data/siteContent'
@@ -49,10 +49,6 @@ export default function BrandVideo() {
                             </>
                         )}
 
-                        <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/35 px-3 py-2 text-[0.65rem] uppercase tracking-[0.24em] text-white/72 backdrop-blur-md">
-                            <FolderOpen className="h-3.5 w-3.5" />
-                            Video local
-                        </div>
                     </div>
 
                     <div className="grid gap-6 p-6 sm:p-7">
