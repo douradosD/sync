@@ -1,7 +1,7 @@
 ﻿import { useEffect, useState } from 'react'
 import { ArrowUpRight, Menu, X } from 'lucide-react'
 import { motion } from 'framer-motion'
-import { contact, navLinks } from '../data/siteContent'
+import { navLinks } from '../data/siteContent'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -58,7 +58,7 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <a href={contact.whatsappUrl} target="_blank" rel="noreferrer" className="hidden button-primary sm:inline-flex">
+            <a href="#cta-final" className="hidden button-primary sm:inline-flex">
               Solicitar orcamento
               <ArrowUpRight className="ml-2 h-4 w-4" />
             </a>
@@ -95,16 +95,6 @@ export default function Navbar() {
                   {item.label}
                 </a>
               ))}
-              <a
-                href={contact.whatsappUrl}
-                target="_blank"
-                rel="noreferrer"
-                onClick={closeMenu}
-                className="button-primary mt-3 w-full"
-              >
-                Solicitar orcamento
-                <ArrowUpRight className="ml-2 h-4 w-4" />
-              </a>
             </nav>
           </div>
         </motion.div>
