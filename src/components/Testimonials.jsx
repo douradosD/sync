@@ -1,4 +1,4 @@
-﻿﻿﻿﻿import { Quote, Star } from 'lucide-react'
+﻿﻿import { Quote, Star } from 'lucide-react'
 import { motion } from 'framer-motion'
 import SectionHeading from './SectionHeading'
 import { testimonials } from '../data/siteContent'

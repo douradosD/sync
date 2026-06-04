@@ -1,4 +1,4 @@
-﻿﻿﻿﻿import { Play, Sparkles } from 'lucide-react'
+﻿﻿import { Play, Sparkles } from 'lucide-react'
 import { motion } from 'framer-motion'
 import SectionHeading from './SectionHeading'
 import { portfolioItems } from '../data/siteContent'
@@ -55,3 +55,4 @@ export default function Portfolio() {
     </section>
   )
 }
+
