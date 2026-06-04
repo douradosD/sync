@@ -1,4 +1,4 @@
-﻿﻿export const navLinks = [
+﻿﻿﻿﻿export const navLinks = [
   { label: 'Video', href: '#video-explicativo' },
   { label: 'Clientes', href: '#clientes' },
   { label: 'Portfolio', href: '#portfolio' },

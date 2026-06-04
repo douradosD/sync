@@ -1,4 +1,4 @@
-﻿import { ArrowRight, PlayCircle } from 'lucide-react'
+﻿﻿import { ArrowRight, PlayCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { contact, heroStats } from '../data/siteContent'
 

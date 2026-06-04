@@ -14,7 +14,7 @@ export default function Clients() {
 
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {clientSegments.map((item, index) => (
-            <motion.article
+            <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -25,10 +25,11 @@ export default function Clients() {
               <span className="font-grotesk text-[0.7rem] uppercase tracking-[0.28em] text-emerald-200/80">{item.accent}</span>
               <h3 className="mt-4 text-xl font-semibold text-white">{item.title}</h3>
               <p className="mt-3 text-sm leading-7 text-white/60">{item.description}</p>
-            </motion.article>
+            </motion.div>
           ))}
         </div>
       </div>
     </section>
   )
 }
+
